@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body
+{   
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(158,230,238,1) 0%, rgba(89,210,161,1) 100%);
+}
+.todo-app
+{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+h1
+{
+    text-align: center;
+    padding: 12px;
+    font-size: 3.1rem;
+    font-weight: 800;
+    font-family: 'Comic Neue', cursive;
+    color: #AA0000;
+}
+.todo
+{
+    position: relative;
+    padding: 20px 20px;
+}
+.todo input
+{
+    width: 76%;
+    height: 53px;
+    padding: 15px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    border-radius: 25px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    border: none;
+    background: #d1d3d4;
+}
+.todo input:focus
+{
+    outline: none;
+    border:none;
+}
+.todo button
+{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background: #AA0000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+.todos
+{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+.task
+{
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d1d3d4;
+    cursor: pointer;
+    background-color: #d1d3d4;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    display: flex;
+}
+.task span
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.task button
+{
+    background-color: #AA0000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 6px 13px;
+    border-radius: 5px;
+}
